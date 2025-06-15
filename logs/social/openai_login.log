@@ -1,0 +1,75 @@
+2025-03-12 11:27:10,986 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-12 11:27:10,987 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-03-12 11:27:10,987 - openai_login - WARNING - ⚠️ No OpenAI cookie file found. Manual login may be required.
+2025-03-12 11:27:10,988 - openai_login - WARNING - ⚠️ Manual login required. Navigating to login page...
+2025-03-12 20:00:23,250 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:00:23,931 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-12 20:00:23,932 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-03-12 20:00:28,278 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:00:31,770 - openai_login - INFO - ✅ Already logged in; starting work immediately.
+2025-03-12 20:03:00,160 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:03:03,473 - openai_login - INFO - ✉️ Sending prompt to ChatGPT...
+2025-03-12 20:03:04,429 - openai_login - INFO - ✅ Found ProseMirror input.
+2025-03-12 20:03:17,641 - openai_login - ERROR - ❌ Error in get_chatgpt_response: Message: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00A8B5A3+24387]
+	(No symbol) [0x00A15904]
+	(No symbol) [0x008F05CE]
+	(No symbol) [0x009335A9]
+	(No symbol) [0x00932A69]
+	(No symbol) [0x0095D84C]
+	(No symbol) [0x0092E164]
+	(No symbol) [0x0095DAC4]
+	(No symbol) [0x0097F138]
+	(No symbol) [0x0095D646]
+	(No symbol) [0x0092C59F]
+	(No symbol) [0x0092D8E4]
+	GetHandleVerifier [0x00D8D883+3179043]
+	GetHandleVerifier [0x00DA6CF9+3282585]
+	GetHandleVerifier [0x00DA167C+3260444]
+	GetHandleVerifier [0x00B24330+650448]
+	(No symbol) [0x00A1ED0D]
+	(No symbol) [0x00A1BAF8]
+	(No symbol) [0x00A1BC99]
+	(No symbol) [0x00A0E530]
+	BaseThreadInitThunk [0x774A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A08944+228]
+	RtlGetAppContainerNamedObjectPath [0x77A08914+180]
+
+2025-03-12 20:05:48,073 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:05:48,642 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-12 20:05:48,642 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-03-12 20:05:52,424 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:05:56,242 - openai_login - INFO - ✅ Already logged in; starting work immediately.
+2025-03-12 20:10:54,992 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:10:58,418 - openai_login - INFO - ✉️ Sending prompt to ChatGPT...
+2025-03-12 20:10:59,472 - openai_login - INFO - ✅ Found ProseMirror input.
+2025-03-12 20:11:00,813 - openai_login - INFO - ✅ Prompt submitted, waiting for response...
+2025-03-12 20:11:00,813 - openai_login - INFO - 🔄 Waiting for full response...
+2025-03-12 20:11:03,834 - openai_login - INFO - ✅ Response appears complete.
+2025-03-12 20:12:02,762 - openai_login - INFO - 🛑 Shutting down OpenAIClient driver...
+2025-03-12 20:12:02,763 - openai_login - INFO - ✅ Driver shut down successfully.
+2025-03-24 21:54:02,047 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver
+2025-03-24 22:01:11,620 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32\chromedriver.exe
+2025-03-24 22:01:13,263 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-24 22:01:13,263 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-03-24 22:01:18,452 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-03-24 22:01:22,829 - openai_login - INFO - ✅ Already logged in; starting work immediately.
+2025-03-24 22:07:35,993 - openai_login - INFO - 🛑 Shutting down OpenAIClient driver...
+2025-03-24 22:07:35,994 - openai_login - INFO - ✅ Driver shut down successfully.
+2025-06-14 18:26:15,911 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:29:10,015 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:29:12,201 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-06-14 18:29:12,203 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-06-14 18:29:17,605 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-06-14 18:29:25,662 - openai_login - INFO - ✅ Already logged in; starting work immediately.
+2025-06-14 18:57:35,998 - openai_login - INFO - 🛑 Shutting down OpenAIClient driver...
+2025-06-14 18:57:36,000 - openai_login - INFO - ✅ Driver shut down successfully.
+2025-06-14 20:42:48,211 - openai_login - INFO - 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 20:42:48,804 - openai_login - INFO - ✅ Undetected Chrome driver initialized for OpenAI.
+2025-06-14 20:42:48,806 - openai_login - INFO - 🔐 Starting OpenAI login process...
+2025-06-14 20:42:53,808 - openai_login - INFO - ✅ Tactic generator page reached; user is logged in.
+2025-06-14 20:42:57,693 - openai_login - INFO - ✅ Already logged in; starting work immediately.
+2025-06-14 20:43:55,082 - openai_login - INFO - 🛑 Shutting down OpenAIClient driver...
+2025-06-14 20:43:55,083 - openai_login - INFO - ✅ Driver shut down successfully.

@@ -1,0 +1,619 @@
+2025-03-12 11:58:52,375 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 11:58:52,376 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 11:58:52,376 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 11:58:52,376 [INFO] ====== WebDriver manager ======
+2025-03-12 11:58:53,197 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 11:58:53,260 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 11:59:14,322 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 11:59:14,322 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 11:59:14,325 [ERROR] ❌ Driver initialization error: Module model_o1mini does not implement register() function.
+2025-03-12 11:59:14,326 [ERROR] ❌ Failed to initialize Automation Engine: Module model_o1mini does not implement register() function.
+2025-03-12 11:59:37,728 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 11:59:37,728 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 11:59:37,728 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 11:59:37,729 [INFO] ====== WebDriver manager ======
+2025-03-12 11:59:38,556 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 11:59:38,622 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 11:59:38,689 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 11:59:38,690 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 11:59:38,704 [INFO] ✅ Model registry loaded with 8 models.
+2025-03-12 11:59:38,705 [ERROR] ❌ Driver initialization error: get_openai_driver() got an unexpected keyword argument 'driver_path'
+2025-03-12 11:59:38,705 [ERROR] ❌ Failed to initialize Automation Engine: get_openai_driver() got an unexpected keyword argument 'driver_path'
+2025-03-12 18:54:48,238 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 18:54:48,239 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 18:54:48,239 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 18:54:48,240 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 18:54:48,240 [INFO] ====== WebDriver manager ======
+2025-03-12 18:54:49,114 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:54:49,183 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:54:49,246 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 18:54:49,247 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 18:54:49,248 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 18:54:49,248 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 18:54:49,248 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 18:54:49,249 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 18:54:49,250 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 18:54:49,251 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 18:54:49,252 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 18:54:49,253 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 18:54:49,254 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x0000026F78FD6E80>}
+2025-03-12 18:54:49,255 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 18:54:49,255 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 18:54:49,256 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 18:54:49,256 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 18:54:49,256 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 18:54:49,611 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 18:54:54,868 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 18:54:54,868 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 18:54:59,930 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 18:54:59,931 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 18:54:59,931 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 18:54:59,931 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 18:54:59,932 [INFO] ====== WebDriver manager ======
+2025-03-12 18:55:00,782 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:55:00,842 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:55:00,905 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 18:55:00,905 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 18:55:00,906 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 18:55:00,906 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 18:55:00,907 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 18:55:00,908 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 18:55:00,909 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 18:55:00,909 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 18:55:00,910 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 18:55:00,911 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 18:55:00,912 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x0000027D021E6E80>}
+2025-03-12 18:55:00,913 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 18:55:00,914 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 18:55:00,914 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 18:55:00,914 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 18:55:00,914 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 18:55:01,284 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 18:55:06,163 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 18:55:06,164 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 18:56:04,296 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 18:56:04,297 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 18:56:04,297 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 18:56:04,298 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 18:56:04,298 [INFO] ====== WebDriver manager ======
+2025-03-12 18:56:05,145 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:56:26,211 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:56:26,270 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 18:56:26,271 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 18:56:26,272 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 18:56:26,272 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 18:56:26,272 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 18:56:26,273 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 18:56:26,274 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 18:56:26,274 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 18:56:26,275 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 18:56:26,276 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 18:56:26,277 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x00000216ED326E80>}
+2025-03-12 18:56:26,279 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 18:56:26,279 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 18:56:26,280 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 18:56:26,280 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 18:56:26,280 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 18:56:26,650 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 18:58:10,152 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 18:58:10,152 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 18:58:16,834 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 18:58:16,834 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 18:58:16,835 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 18:58:16,835 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 18:58:16,835 [INFO] ====== WebDriver manager ======
+2025-03-12 18:58:17,664 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:58:38,722 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:58:38,782 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 18:58:38,783 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 18:58:38,784 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 18:58:38,784 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 18:58:38,785 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 18:58:38,785 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 18:58:38,786 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 18:58:38,787 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 18:58:38,788 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 18:58:38,789 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 18:58:38,790 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001CCF8146E80>}
+2025-03-12 18:58:38,791 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 18:58:38,792 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 18:58:38,792 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 18:58:38,792 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 18:58:38,793 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 18:58:39,160 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 18:59:21,762 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 18:59:21,762 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 18:59:32,444 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 18:59:32,445 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 18:59:32,445 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 18:59:32,445 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 18:59:32,446 [INFO] ====== WebDriver manager ======
+2025-03-12 18:59:33,272 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:59:54,331 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 18:59:54,398 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 18:59:54,399 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 18:59:54,399 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 18:59:54,400 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 18:59:54,400 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 18:59:54,401 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 18:59:54,402 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 18:59:54,403 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 18:59:54,404 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 18:59:54,405 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 18:59:54,406 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001B64E726E80>}
+2025-03-12 18:59:54,407 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 18:59:54,408 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 18:59:54,409 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 18:59:54,409 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 18:59:54,409 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 18:59:54,786 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:02:35,799 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:02:54,087 [INFO] ✅ Read file: D:\chatgpt_automation\ProjectScanner.py
+2025-03-12 19:05:13,616 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 19:05:13,616 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 19:05:40,072 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:05:40,073 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:05:40,073 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:05:40,073 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:05:40,073 [INFO] ====== WebDriver manager ======
+2025-03-12 19:05:40,901 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:06:22,987 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:06:23,051 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:06:23,051 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:06:23,052 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:06:23,052 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:06:23,053 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:06:23,054 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:06:23,054 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:06:23,055 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:06:23,056 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:06:23,057 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:06:23,057 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001C7E5DEA660>}
+2025-03-12 19:06:23,058 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:06:23,059 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:06:23,059 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:06:23,059 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:06:23,060 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:06:23,421 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:07:06,346 [INFO] ✅ Read file: D:\chatgpt_automation\OpenAIClient.py
+2025-03-12 19:07:20,823 [INFO] ✅ Read file: D:\chatgpt_automation\bot_worker.py
+2025-03-12 19:14:15,592 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:14:15,592 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:14:15,593 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:14:15,593 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:14:15,593 [INFO] ====== WebDriver manager ======
+2025-03-12 19:14:16,422 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:14:16,489 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:14:16,545 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:14:16,545 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:14:16,546 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:14:16,546 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:14:16,547 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:14:16,548 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:14:16,549 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:14:16,550 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:14:16,551 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:14:16,551 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:14:16,552 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x0000021976F1A660>}
+2025-03-12 19:14:16,553 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:14:16,554 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:14:16,554 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:14:16,555 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:14:16,555 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:14:16,944 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:14:31,332 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:20:43,288 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:20:43,289 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:20:43,290 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:20:43,291 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:20:43,291 [INFO] ====== WebDriver manager ======
+2025-03-12 19:20:44,588 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:20:46,521 [INFO] ✅ File saved: D:\chatgpt_automation\ModelRegistry.py.updated.py
+2025-03-12 19:21:05,660 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:21:05,721 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:21:05,722 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:21:05,723 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:21:05,723 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:21:05,723 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:21:05,724 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:21:05,725 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:21:05,726 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:21:05,727 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:21:05,728 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:21:05,729 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000002371451AA20>}
+2025-03-12 19:21:05,730 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:21:05,731 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:21:05,732 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:21:05,732 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:21:05,732 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:21:06,107 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:21:40,045 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:21:41,786 [INFO] 🧪 Running tests for: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:21:41,787 [INFO] ✅ Test passed.
+2025-03-12 19:22:04,352 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:22:07,955 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py.updated.py
+2025-03-12 19:22:35,836 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:22:53,250 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py.updated.py
+2025-03-12 19:23:54,941 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:24:20,023 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 19:24:20,024 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 19:26:10,354 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-12 19:35:38,011 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:35:38,012 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:35:38,012 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:35:38,012 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:35:38,012 [INFO] ====== WebDriver manager ======
+2025-03-12 19:35:38,907 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:36:21,037 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:36:21,102 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:36:21,103 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:36:21,104 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:36:21,104 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:36:21,105 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:36:21,106 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:36:21,107 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:36:21,108 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:36:21,109 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:36:21,110 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:36:21,111 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000002176906A840>}
+2025-03-12 19:36:21,112 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:36:21,113 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:36:21,113 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:36:21,113 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:36:21,114 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:36:21,495 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:37:06,978 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:37:06,979 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:37:06,979 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:37:06,979 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:37:06,979 [INFO] ====== WebDriver manager ======
+2025-03-12 19:37:07,839 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:37:26,397 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:37:26,397 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:37:26,398 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:37:26,398 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:37:26,398 [INFO] ====== WebDriver manager ======
+2025-03-12 19:37:27,225 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:37:27,290 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:37:27,354 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:37:27,354 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:37:27,355 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:37:27,355 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:37:27,355 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:37:27,356 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:37:27,357 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:37:27,358 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:37:27,359 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:37:27,360 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:37:27,361 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x0000026EB070A700>}
+2025-03-12 19:37:27,362 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:37:27,362 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:37:27,363 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:37:27,363 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:37:27,363 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:37:27,737 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:37:41,137 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 19:37:41,138 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 19:39:14,523 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:39:14,523 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:39:14,523 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:39:14,523 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:39:14,524 [INFO] ====== WebDriver manager ======
+2025-03-12 19:39:15,344 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:39:15,409 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:39:15,474 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 19:39:15,475 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 19:39:15,475 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 19:39:15,476 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 19:39:15,476 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 19:39:15,477 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 19:39:15,478 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 19:39:15,478 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 19:39:15,479 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 19:39:15,480 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 19:39:15,481 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001FD42F1AB60>}
+2025-03-12 19:39:15,482 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 19:39:15,482 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 19:39:15,483 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 19:39:15,483 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 19:39:15,483 [INFO] ✅ Local LLM engine initialized with model: mistral
+2025-03-12 19:39:15,836 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 19:39:53,432 [INFO] ✅ Read file: D:\chatgpt_automation\local_llm_engine.py
+2025-03-12 19:39:53,644 [INFO] ✅ Read file: D:\chatgpt_automation\local_llm_engine.py
+2025-03-12 19:40:01,173 [INFO] ✅ Read file: D:\chatgpt_automation\OpenAIClient.py
+2025-03-12 19:40:14,142 [INFO] ✅ Read file: D:\chatgpt_automation\controllers\automation_controller.py
+2025-03-12 19:40:18,429 [INFO] 🧪 Running tests for: D:\chatgpt_automation\controllers\automation_controller.py
+2025-03-12 19:40:18,430 [INFO] ✅ Test passed.
+2025-03-12 19:40:23,200 [INFO] 🩺 Starting self-heal process for: D:\chatgpt_automation\controllers\automation_controller.py
+2025-03-12 19:40:23,201 [INFO] 🧠 Sending file content for self-healing...
+2025-03-12 19:42:42,852 [INFO] ✅ Self-heal response received.
+2025-03-12 19:42:42,853 [INFO] ✅ File saved: D:\chatgpt_automation\controllers\automation_controller.py.selfhealed.py
+2025-03-12 19:58:06,263 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 19:58:06,264 [INFO] ✅ Local LLM engine does not require shutdown.
+2025-03-12 19:58:51,431 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 19:58:51,432 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 19:58:51,432 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 19:58:51,432 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 19:58:51,432 [INFO] ====== WebDriver manager ======
+2025-03-12 19:58:52,252 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 19:58:52,320 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 20:00:22,291 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 20:00:22,292 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 20:00:22,292 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 20:00:22,292 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 20:00:22,293 [INFO] ====== WebDriver manager ======
+2025-03-12 20:00:23,124 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 20:00:23,179 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 20:00:23,241 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 20:00:23,242 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:00:23,242 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 20:00:23,243 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 20:00:23,243 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 20:00:23,244 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 20:00:23,245 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 20:00:23,245 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 20:00:23,246 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 20:00:23,247 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 20:00:23,248 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x00000222CB752C00>}
+2025-03-12 20:00:23,249 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 20:00:23,249 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 20:00:23,249 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 20:00:23,250 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 20:00:23,250 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:00:23,931 [INFO] ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-12 20:00:23,932 [INFO] 🔐 Starting OpenAI login process...
+2025-03-12 20:00:28,278 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:00:31,770 [INFO] ✅ Already logged in; starting work immediately.
+2025-03-12 20:00:31,771 [INFO] ✅ OpenAI session established via OpenAIClient.
+2025-03-12 20:00:32,125 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 20:02:26,400 [INFO] ✅ Read file: D:\chatgpt_automation\setup_logging.py
+2025-03-12 20:02:27,069 [INFO] ✅ Read file: D:\chatgpt_automation\setup_logging.py
+2025-03-12 20:03:00,160 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:03:03,473 [INFO] ✉️ Sending prompt to ChatGPT...
+2025-03-12 20:03:04,429 [INFO] ✅ Found ProseMirror input.
+2025-03-12 20:03:17,641 [ERROR] ❌ Error in get_chatgpt_response: Message: element not interactable
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00A8B5A3+24387]
+	(No symbol) [0x00A15904]
+	(No symbol) [0x008F05CE]
+	(No symbol) [0x009335A9]
+	(No symbol) [0x00932A69]
+	(No symbol) [0x0095D84C]
+	(No symbol) [0x0092E164]
+	(No symbol) [0x0095DAC4]
+	(No symbol) [0x0097F138]
+	(No symbol) [0x0095D646]
+	(No symbol) [0x0092C59F]
+	(No symbol) [0x0092D8E4]
+	GetHandleVerifier [0x00D8D883+3179043]
+	GetHandleVerifier [0x00DA6CF9+3282585]
+	GetHandleVerifier [0x00DA167C+3260444]
+	GetHandleVerifier [0x00B24330+650448]
+	(No symbol) [0x00A1ED0D]
+	(No symbol) [0x00A1BAF8]
+	(No symbol) [0x00A1BC99]
+	(No symbol) [0x00A0E530]
+	BaseThreadInitThunk [0x774A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A08944+228]
+	RtlGetAppContainerNamedObjectPath [0x77A08914+180]
+
+2025-03-12 20:05:47,096 [INFO] ✅ GuiHelpers initialized.
+2025-03-12 20:05:47,097 [INFO] 🚀 Initializing Automation Engine...
+2025-03-12 20:05:47,097 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-12 20:05:47,097 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-12 20:05:47,097 [INFO] ====== WebDriver manager ======
+2025-03-12 20:05:47,937 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 20:05:47,998 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-12 20:05:48,064 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-12 20:05:48,065 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:05:48,065 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-12 20:05:48,066 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-12 20:05:48,066 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-12 20:05:48,067 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-12 20:05:48,067 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-12 20:05:48,068 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-12 20:05:48,069 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-12 20:05:48,069 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-12 20:05:48,070 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001B493F72C00>}
+2025-03-12 20:05:48,072 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-12 20:05:48,072 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-12 20:05:48,073 [INFO] ✅ 7 models loaded successfully.
+2025-03-12 20:05:48,073 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-12 20:05:48,073 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe
+2025-03-12 20:05:48,642 [INFO] ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-12 20:05:48,642 [INFO] 🔐 Starting OpenAI login process...
+2025-03-12 20:05:52,424 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:05:56,242 [INFO] ✅ Already logged in; starting work immediately.
+2025-03-12 20:05:56,243 [INFO] ✅ OpenAI session established via OpenAIClient.
+2025-03-12 20:05:56,582 [INFO] ✅ Project analysis loaded successfully.
+2025-03-12 20:10:54,992 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-03-12 20:10:58,418 [INFO] ✉️ Sending prompt to ChatGPT...
+2025-03-12 20:10:59,472 [INFO] ✅ Found ProseMirror input.
+2025-03-12 20:11:00,813 [INFO] ✅ Prompt submitted, waiting for response...
+2025-03-12 20:11:00,813 [INFO] 🔄 Waiting for full response...
+2025-03-12 20:11:03,834 [INFO] ✅ Response appears complete.
+2025-03-12 20:12:02,762 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-12 20:12:02,762 [INFO] 🛑 Shutting down OpenAIClient driver...
+2025-03-12 20:12:02,763 [INFO] ✅ Driver shut down successfully.
+2025-03-12 20:12:02,764 [INFO] ✅ OpenAIClient driver shut down successfully.
+2025-03-24 21:53:49,149 [INFO] ✅ GuiHelpers initialized.
+2025-03-24 21:53:49,150 [INFO] 🚀 Initializing Automation Engine...
+2025-03-24 21:53:49,150 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-24 21:53:49,151 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-24 21:53:49,151 [INFO] ====== WebDriver manager ======
+2025-03-24 21:53:50,336 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 21:53:50,414 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 21:53:50,475 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 21:53:50,630 [INFO] WebDriver version 134.0.6998.165 selected
+2025-03-24 21:53:50,635 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-24 21:53:50,636 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-24 21:53:50,722 [INFO] Driver downloading response is 200
+2025-03-24 21:53:51,581 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 21:54:02,028 [INFO] Driver has been saved in cache [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-03-24 21:54:02,029 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver
+2025-03-24 21:54:02,030 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-24 21:54:02,030 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-24 21:54:02,031 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-24 21:54:02,033 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-24 21:54:02,034 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-24 21:54:02,036 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-24 21:54:02,037 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-24 21:54:02,038 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-24 21:54:02,039 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x00000248A8002340>}
+2025-03-24 21:54:02,045 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-24 21:54:02,046 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-24 21:54:02,047 [INFO] ✅ 7 models loaded successfully.
+2025-03-24 21:54:02,047 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-24 21:54:02,047 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver
+2025-03-24 21:54:02,048 [INFO] patching driver executable C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver.exe
+2025-03-24 21:54:02,048 [ERROR] ❌ OpenAIClient initialization error: [Errno 2] No such file or directory: 'C:\\Users\\USER\\.wdm\\drivers\\chromedriver\\win64\\134.0.6998.165\\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver.exe'
+2025-03-24 22:00:49,427 [INFO] ✅ GuiHelpers initialized.
+2025-03-24 22:00:49,427 [INFO] 🚀 Initializing Automation Engine...
+2025-03-24 22:00:49,428 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-03-24 22:00:49,428 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-03-24 22:00:49,428 [INFO] ====== WebDriver manager ======
+2025-03-24 22:00:50,440 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 22:01:11,548 [INFO] Get LATEST chromedriver version for google-chrome
+2025-03-24 22:01:11,612 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-03-24 22:01:11,612 [INFO] ✅ ChromeDriver executable found at C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32\chromedriver.exe
+2025-03-24 22:01:11,613 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32\chromedriver.exe
+2025-03-24 22:01:11,614 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-03-24 22:01:11,614 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-03-24 22:01:11,614 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-03-24 22:01:11,615 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-03-24 22:01:11,616 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-03-24 22:01:11,616 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-03-24 22:01:11,617 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-03-24 22:01:11,617 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-03-24 22:01:11,618 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x0000021C95E85DA0>}
+2025-03-24 22:01:11,619 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-03-24 22:01:11,620 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-03-24 22:01:11,620 [INFO] ✅ 7 models loaded successfully.
+2025-03-24 22:01:11,620 [INFO] ✅ Model registry loaded with 7 models.
+2025-03-24 22:01:11,620 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32\chromedriver.exe
+2025-03-24 22:01:12,022 [INFO] patching driver executable C:\Users\USER\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32\chromedriver.exe
+2025-03-24 22:01:13,263 [INFO] ✅ Undetected Chrome driver initialized for OpenAI.
+2025-03-24 22:01:13,263 [INFO] 🔐 Starting OpenAI login process...
+2025-03-24 22:01:18,452 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-03-24 22:01:22,829 [INFO] ✅ Already logged in; starting work immediately.
+2025-03-24 22:01:22,829 [INFO] ✅ OpenAI session established via OpenAIClient.
+2025-03-24 22:01:23,266 [INFO] ✅ Project analysis loaded successfully.
+2025-03-24 22:06:52,477 [INFO] ✅ Read file: D:\chatgpt_automation\ModelRegistry.py
+2025-03-24 22:07:35,993 [INFO] 🛑 Shutting down Automation Engine...
+2025-03-24 22:07:35,993 [INFO] 🛑 Shutting down OpenAIClient driver...
+2025-03-24 22:07:35,994 [INFO] ✅ Driver shut down successfully.
+2025-03-24 22:07:35,994 [INFO] ✅ OpenAIClient driver shut down successfully.
+2025-06-14 18:20:49,825 [INFO] ✅ GuiHelpers initialized.
+2025-06-14 18:20:49,827 [INFO] 🚀 Initializing Automation Engine...
+2025-06-14 18:20:49,827 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-06-14 18:20:49,828 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-06-14 18:20:49,829 [INFO] ====== WebDriver manager ======
+2025-06-14 18:20:52,108 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:21:13,979 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:21:35,412 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:23:21,416 [INFO] WebDriver version 137.0.7151.70 selected
+2025-06-14 18:23:21,421 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-14 18:23:21,422 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-14 18:23:21,876 [INFO] Driver downloading response is 200
+2025-06-14 18:23:22,751 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:24:24,556 [INFO] ✅ GuiHelpers initialized.
+2025-06-14 18:24:24,558 [INFO] 🚀 Initializing Automation Engine...
+2025-06-14 18:24:24,558 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-06-14 18:24:24,558 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-06-14 18:24:24,559 [INFO] ====== WebDriver manager ======
+2025-06-14 18:24:25,412 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:25:07,945 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:25:08,410 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:26:12,799 [INFO] WebDriver version 137.0.7151.70 selected
+2025-06-14 18:26:12,807 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-14 18:26:12,808 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-14 18:26:13,382 [INFO] Driver downloading response is 200
+2025-06-14 18:26:14,262 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:26:15,875 [INFO] Driver has been saved in cache [C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70]
+2025-06-14 18:26:15,878 [INFO] ✅ ChromeDriver executable found at C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:26:15,879 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:26:15,880 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-06-14 18:26:15,880 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-06-14 18:26:15,881 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-06-14 18:26:15,884 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-06-14 18:26:15,886 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-06-14 18:26:15,888 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-06-14 18:26:15,890 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-06-14 18:26:15,894 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-06-14 18:26:15,896 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001C4BDBD0720>}
+2025-06-14 18:26:15,899 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-06-14 18:26:15,901 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-06-14 18:26:15,901 [INFO] ✅ 7 models loaded successfully.
+2025-06-14 18:26:15,902 [INFO] ✅ Model registry loaded with 7 models.
+2025-06-14 18:26:15,911 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:26:16,330 [INFO] patching driver executable C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:26:16,368 [ERROR] ❌ OpenAIClient initialization error: 'ChromeOptions' object has no attribute 'headless'
+2025-06-14 18:28:47,221 [INFO] ✅ GuiHelpers initialized.
+2025-06-14 18:28:47,222 [INFO] 🚀 Initializing Automation Engine...
+2025-06-14 18:28:47,222 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-06-14 18:28:47,222 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-06-14 18:28:47,223 [INFO] ====== WebDriver manager ======
+2025-06-14 18:28:48,074 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:28:48,528 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:29:10,002 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-14 18:29:10,003 [INFO] ✅ ChromeDriver executable found at C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:29:10,003 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:29:10,004 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-06-14 18:29:10,006 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-06-14 18:29:10,006 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-06-14 18:29:10,006 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-06-14 18:29:10,008 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-06-14 18:29:10,009 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-06-14 18:29:10,010 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-06-14 18:29:10,011 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-06-14 18:29:10,012 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x00000194D9E9A340>}
+2025-06-14 18:29:10,013 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-06-14 18:29:10,014 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-06-14 18:29:10,014 [INFO] ✅ 7 models loaded successfully.
+2025-06-14 18:29:10,014 [INFO] ✅ Model registry loaded with 7 models.
+2025-06-14 18:29:10,015 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 18:29:12,201 [INFO] ✅ Undetected Chrome driver initialized for OpenAI.
+2025-06-14 18:29:12,203 [INFO] 🔐 Starting OpenAI login process...
+2025-06-14 18:29:17,605 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-06-14 18:29:25,662 [INFO] ✅ Already logged in; starting work immediately.
+2025-06-14 18:29:25,663 [INFO] ✅ OpenAI session established via OpenAIClient.
+2025-06-14 18:29:26,181 [INFO] ✅ Project analysis loaded successfully.
+2025-06-14 18:57:35,997 [INFO] 🛑 Shutting down Automation Engine...
+2025-06-14 18:57:35,998 [INFO] 🛑 Shutting down OpenAIClient driver...
+2025-06-14 18:57:36,000 [INFO] ✅ Driver shut down successfully.
+2025-06-14 18:57:36,001 [INFO] ✅ OpenAIClient driver shut down successfully.
+2025-06-14 20:42:46,042 [INFO] ✅ GuiHelpers initialized.
+2025-06-14 20:42:46,043 [INFO] 🚀 Initializing Automation Engine...
+2025-06-14 20:42:46,044 [WARNING] ❌ ChromeDriver not found at C:/Users/USER/Downloads/chromedriver-win64/chromedriver.exe
+2025-06-14 20:42:46,044 [INFO] ⬇️ Downloading ChromeDriver via webdriver_manager...
+2025-06-14 20:42:46,045 [INFO] ====== WebDriver manager ======
+2025-06-14 20:42:47,015 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 20:42:47,592 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 20:42:48,191 [INFO] Driver [C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-14 20:42:48,192 [INFO] ✅ ChromeDriver executable found at C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 20:42:48,192 [INFO] ✅ ChromeDriver downloaded to C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 20:42:48,194 [INFO] 🏠 Project root anchored at: D:\chatgpt_automation
+2025-06-14 20:42:48,195 [INFO] 📂 Looking for models in: D:\chatgpt_automation\models
+2025-06-14 20:42:48,196 [INFO] 🚀 Loading models from D:\chatgpt_automation\models...
+2025-06-14 20:42:48,198 [INFO] ✅ Model registered: GPT-4 | Threshold: 50 | Endpoint: https://chatgpt.com/?model=gpt-4
+2025-06-14 20:42:48,201 [INFO] ✅ Model registered: GPT-4o | Threshold: 200 | Endpoint: https://chatgpt.com/?model=gpt-4o
+2025-06-14 20:42:48,202 [INFO] ✅ Model registered: GPT-4o Mini | Threshold: 100 | Endpoint: https://chatgpt.com/?model=gpt-4o-mini
+2025-06-14 20:42:48,204 [INFO] ✅ Model registered: GPT-4.5 | Threshold: 750 | Endpoint: https://chatgpt.com/?model=gpt-4-5
+2025-06-14 20:42:48,205 [INFO] ✅ Model registered: O1 | Threshold: 800 | Endpoint: https://chatgpt.com/?model=o1
+2025-06-14 20:42:48,206 [ERROR] ❌ model_o3mini returned incomplete data: {'name': 'O3-mini', 'threshold': 400, 'handler': <function process_with_o3mini at 0x000001DCD4EFE2A0>}
+2025-06-14 20:42:48,207 [INFO] ✅ Model registered: O3-Mini-High | Threshold: 500 | Endpoint: https://chatgpt.com/?model=o3-mini-high
+2025-06-14 20:42:48,209 [INFO] ✅ Model registered: Template-Model | Threshold: 100 | Endpoint: https://chatgpt.com/?model=template-model
+2025-06-14 20:42:48,209 [INFO] ✅ 7 models loaded successfully.
+2025-06-14 20:42:48,210 [INFO] ✅ Model registry loaded with 7 models.
+2025-06-14 20:42:48,211 [INFO] 🔎 Using custom ChromeDriver: C:\Users\USER\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32\chromedriver.exe
+2025-06-14 20:42:48,804 [INFO] ✅ Undetected Chrome driver initialized for OpenAI.
+2025-06-14 20:42:48,806 [INFO] 🔐 Starting OpenAI login process...
+2025-06-14 20:42:53,808 [INFO] ✅ Tactic generator page reached; user is logged in.
+2025-06-14 20:42:57,693 [INFO] ✅ Already logged in; starting work immediately.
+2025-06-14 20:42:57,694 [INFO] ✅ OpenAI session established via OpenAIClient.
+2025-06-14 20:42:58,256 [INFO] ✅ Project analysis loaded successfully.
+2025-06-14 20:43:55,081 [INFO] 🛑 Shutting down Automation Engine...
+2025-06-14 20:43:55,082 [INFO] 🛑 Shutting down OpenAIClient driver...
+2025-06-14 20:43:55,083 [INFO] ✅ Driver shut down successfully.
+2025-06-14 20:43:55,085 [INFO] ✅ OpenAIClient driver shut down successfully.
