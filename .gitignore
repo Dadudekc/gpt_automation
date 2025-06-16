@@ -1,2 +1,4 @@
 chrome_profile/**
 chrome_profile/**
+*.tflite
+*.tflite
