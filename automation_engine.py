@@ -195,9 +195,30 @@ class AutomationEngine:
         # --- Test and Deploy ---
         if self.run_tests(output_file):
             self.deploy_file(output_file)
-        else:
-            logger.warning(f"⚠️ Tests failed for {output_file}. Skipping deployment.")
-        return output_file
+            return output_file
+
+        logger.warning(f"⚠️ Tests failed for {output_file}. Attempting self-heal...")
+
+        heal_response = self.self_heal_file(file_path)
+        if not heal_response:
+            logger.error(f"❌ Self-heal produced no result for {file_path}")
+            return None
+
+        try:
+            with open(output_file, "w", encoding="utf-8") as f:
+                f.write(heal_response)
+            logger.info(f"✅ Self-healed file saved: {output_file}")
+        except Exception as e:
+            logger.error(f"❌ Failed to write self-healed file {output_file}: {e}")
+            return None
+
+        if self.run_tests(output_file):
+            self.deploy_file(output_file)
+            logger.info(f"✅ Self-heal successful for {file_path}")
+            return output_file
+
+        logger.error(f"❌ Self-heal tests failed for {file_path}")
+        return None
 
     def self_heal_file(self, file_path):
         """Perform self-healing on the file at file_path."""
@@ -282,6 +303,75 @@ class AutomationEngine:
         logger.info("✅ Files prioritized based on complexity score.")
         # Convert relative paths to absolute paths.
         return [str(Path(file).resolve()) for file, _ in prioritized]
+
+    def batch_process_files(self, prompt, file_list=None):
+        """Process multiple files using a shared prompt."""
+        if file_list is None:
+            file_list = self.prioritize_files()
+
+        results = {}
+        total = len(file_list)
+        for idx, file_path in enumerate(file_list, start=1):
+            logger.info(f"📂 ({idx}/{total}) Processing {file_path} with shared prompt")
+
+            if not os.path.exists(file_path):
+                logger.warning(f"⚠️ File not found: {file_path}")
+                results[file_path] = None
+                continue
+
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    file_content = f.read()
+            except Exception as e:
+                logger.error(f"❌ Failed to read {file_path}: {e}")
+                results[file_path] = None
+                continue
+
+            composite_prompt = f"{prompt}\n\n---\n\n{file_content}"
+            response = self.get_chatgpt_response(composite_prompt)
+
+            if not response:
+                logger.error(f"❌ No response for {file_path}")
+                results[file_path] = None
+                continue
+
+            output_file = file_path.replace(".py", "_refactored.py")
+            try:
+                with open(output_file, "w", encoding="utf-8") as f:
+                    f.write(response)
+                logger.info(f"✅ Saved result to {output_file}")
+            except Exception as e:
+                logger.error(f"❌ Failed to save {output_file}: {e}")
+                results[file_path] = None
+                continue
+
+            if self.run_tests(output_file):
+                self.deploy_file(output_file)
+                results[file_path] = output_file
+                continue
+
+            logger.warning(f"⚠️ Tests failed for {output_file}. Attempting self-heal...")
+            heal_response = self.self_heal_file(file_path)
+            if heal_response:
+                try:
+                    with open(output_file, "w", encoding="utf-8") as f:
+                        f.write(heal_response)
+                    logger.info(f"✅ Self-healed file saved: {output_file}")
+                except Exception as e:
+                    logger.error(f"❌ Failed to save self-healed file {output_file}: {e}")
+                    results[file_path] = None
+                    continue
+
+                if self.run_tests(output_file):
+                    self.deploy_file(output_file)
+                    results[file_path] = output_file
+                    continue
+                logger.error(f"❌ Self-heal tests failed for {file_path}")
+            else:
+                logger.error(f"❌ Self-heal produced no result for {file_path}")
+            results[file_path] = None
+
+        return results
 
     def process_all_files(self):
         """Process all files, prioritized by complexity."""
