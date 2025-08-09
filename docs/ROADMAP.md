@@ -1,6 +1,6 @@
 # Project Roadmap
 
-This roadmap outlines the high‑level milestones for the `gpt_automation`
+This roadmap outlines the high‑level milestones for the `gpt-automation`
 project from early development toward a stable release.
 
 ## Milestone 1 – Foundation (Complete)
@@ -26,7 +26,7 @@ project from early development toward a stable release.
 - Write comprehensive documentation and user guides.
 - Finalize installer and update mechanism.
 
-## Future Ideas
+## Future project-ideas
 - Cloud‑based job queue for large projects.
 - Plugin system for custom processing steps.
 - Advanced analytics on AI‑generated changes.

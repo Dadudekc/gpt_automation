@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD)
 
 ## Overview
-`gpt_automation` is a desktop application that streamlines code refactoring and
+`gpt-automation` is a desktop application that streamlines code refactoring and
 self‑healing by leveraging both local large language models and the OpenAI
 ChatGPT web interface. The application provides a GUI for selecting files,
 processing them through AI models, running basic tests, and deploying updated

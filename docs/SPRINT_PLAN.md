@@ -1,6 +1,6 @@
 # Sprint Plan – Next Phase
 
-This sprint targets the tasks required to push `gpt_automation` toward beta
+This sprint targets the tasks required to push `gpt-automation` toward beta
 readiness. The sprint duration is **two weeks**.
 
 ## Objectives
@@ -12,7 +12,7 @@ readiness. The sprint duration is **two weeks**.
 1. **Cross‑Platform Setup Script**
    - Create a Python script to download/install ChromeDriver and set paths.
 2. **Unit Test Suite**
-   - Write tests for `AutomationEngine`, `ProjectScanner`, and GUI helpers.
+   - Write tests for `AutomationEngine`, `project-scanner`, and GUI helpers.
 3. **Integration Test Workflow**
    - Automate processing a sample project and verifying expected outputs.
 4. **Error Handling Improvements**
