@@ -1,0 +1,159 @@
+{
+  "owner": "dadudekc",
+  "repo": "gpt_automation",
+  "repo_path": "D:\\repositories\\dadudekc\\gpt_automation",
+  "primary_file": "D:\\repositories\\dadudekc\\gpt_automation\\README.md",
+  "tasks": [
+    {
+      "text": "Local LLM and ChatGPT modes verified.",
+      "done": false,
+      "section": "Functionality",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 7,
+      "indent": 0
+    },
+    {
+      "text": "GUI allows selecting, previewing, and processing files.",
+      "done": false,
+      "section": "Functionality",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 8,
+      "indent": 0
+    },
+    {
+      "text": "Self‑heal workflow updates files as expected.",
+      "done": false,
+      "section": "Functionality",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 9,
+      "indent": 0
+    },
+    {
+      "text": "Batch processing handles multiple files without crashes.",
+      "done": false,
+      "section": "Functionality",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 10,
+      "indent": 0
+    },
+    {
+      "text": "Deployment and backup directories populate correctly.",
+      "done": false,
+      "section": "Functionality",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 11,
+      "indent": 0
+    },
+    {
+      "text": "Unit tests cover core modules (`AutomationEngine`, `GuiHelpers`, etc.).",
+      "done": false,
+      "section": "Testing",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 14,
+      "indent": 0
+    },
+    {
+      "text": "Integration test for end‑to‑end processing.",
+      "done": false,
+      "section": "Testing",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 15,
+      "indent": 0
+    },
+    {
+      "text": "Manual test plan executed on Windows, macOS, and Linux.",
+      "done": false,
+      "section": "Testing",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 16,
+      "indent": 0
+    },
+    {
+      "text": "Test failures log actionable messages.",
+      "done": false,
+      "section": "Testing",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 17,
+      "indent": 0
+    },
+    {
+      "text": "PRD and roadmap published in `docs/`.",
+      "done": false,
+      "section": "Documentation",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 20,
+      "indent": 0
+    },
+    {
+      "text": "Setup instructions for dependencies (ChromeDriver, local models).",
+      "done": false,
+      "section": "Documentation",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 21,
+      "indent": 0
+    },
+    {
+      "text": "User guide for running the GUI and command‑line options.",
+      "done": false,
+      "section": "Documentation",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 22,
+      "indent": 0
+    },
+    {
+      "text": "Application runs for at least one hour without memory leaks.",
+      "done": false,
+      "section": "Stability",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 25,
+      "indent": 0
+    },
+    {
+      "text": "Error conditions handled gracefully (missing files, driver failures).",
+      "done": false,
+      "section": "Stability",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 26,
+      "indent": 0
+    },
+    {
+      "text": "Logs rotate or truncate to prevent unlimited growth.",
+      "done": false,
+      "section": "Stability",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 27,
+      "indent": 0
+    },
+    {
+      "text": "All critical bugs resolved.",
+      "done": false,
+      "section": "Go/No‑Go",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 30,
+      "indent": 0
+    },
+    {
+      "text": "Team review sign‑off.",
+      "done": false,
+      "section": "Go/No‑Go",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 31,
+      "indent": 0
+    },
+    {
+      "text": "Backup of source code and build artifacts completed.",
+      "done": false,
+      "section": "Go/No‑Go",
+      "file": "D:\\repositories\\dadudekc\\gpt_automation\\docs\\BETA_CHECKLIST.md",
+      "line": 32,
+      "indent": 0
+    }
+  ],
+  "milestones": [],
+  "objectives": [
+    "Finalize core functionality and stabilize the codebase.",
+    "Expand automated test coverage.",
+    "Provide clear instructions for contributors and testers."
+  ],
+  "updated_at": "2025-08-09T21:23:15.501085Z"
+}
